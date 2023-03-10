@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Logo } from "../../UI/Logo";
+import { ImgUI } from '../../UI/ImgUI/ImgUI'
 import { ImgLeft } from "../../UI/ImgLeft/ImgLeft";
 import { NavBar } from "../../UI/NavBar/NavBar";
 
@@ -39,7 +39,7 @@ function Login() {
         <section className="form">
           <section className="heading">
             <div className="containerIcon">
-              <Logo style="imgLogoLogin" routeImg={logo} />
+              <ImgUI style="imgLogoLogin" routeImg={logo} />
             </div>
 
             <h1>Bienvenido</h1>

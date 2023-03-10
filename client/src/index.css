@@ -9,7 +9,6 @@
 body {
   overflow: hidden;
   font-family: "Poppins", sans-serif;
-  /* background: linear-gradient(165.12deg, #FF6900 20.66%, #3E3738 89.74%); */
   background-color: transparent;
 }
 
@@ -196,6 +195,7 @@ h3 {
   background-color: #f07000bb;
   border-radius: 25px;
 }
+
 
 .containerIcon {
   display: flex;
@@ -448,4 +448,59 @@ li {
     margin-bottom: 2rem;
     margin-right: 0rem;
   }
+
 }
+
+
+/* HomePage */
+
+main{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(165.12deg, #FF6900 20.66%, #3E3738 89.74%);
+}
+
+.containerWhite{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.containerPlate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.iconWhite{
+  height: 235px;
+  width: 330px;
+}
+
+.iconPlate{
+  width: 520px;
+  height: 450px;
+  border-radius: 55%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

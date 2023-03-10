@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { NavBar } from "../../UI/NavBar/NavBar";
-import { Logo } from "../../UI/Logo";
 import { ImgLeft } from "../../UI/ImgLeft/ImgLeft";
+
+import { ImgUI } from "../../UI/ImgUI/ImgUI";
 
 import logo from "../../../Images/logo.png";
 import logoLogin from "../../../Images/heroBg.png";
@@ -39,7 +40,7 @@ export default function Register() {
         <section className="form">
           <section className="heading">
             <div className="containerIcon">
-              <Logo style="imgLogoRegister" routeImg={logo} />
+              <ImgUI style="imgLogoRegister" routeImg={logo} />
             </div>
 
             <h1>Registro</h1>
