@@ -6,6 +6,7 @@ import { NavBar } from "../../UI/NavBar/NavBar";
 
 import logoLogin from "../../../Images/heroBg.png";
 import logo from "../../../Images/logo.png";
+import logoOrder from "../../../Images/Exclude.png"
 
 function Login() {
   const [formData, setFormData] = useState({
@@ -29,6 +30,7 @@ function Login() {
   return (
     <div className="containerPrincipal">
       <section className="sectionLeft">
+        <ImgLeft style="orderLogo" path={logoOrder} />
         <ImgLeft style="leftContain" path={logoLogin} />
       </section>
 
@@ -71,7 +73,7 @@ function Login() {
               />
             </div>
 
-            <a id="ancla" className="recu-contra" href="#">
+            <a id="ancla" className="recover-password-responsive" href="#">
               ¿Has olvidado tu contraseña?
             </a>
 
@@ -79,7 +81,11 @@ function Login() {
               <button type="submit" className="btn btn-block">
                 Entrar
               </button>
+              <p className="register">¿No tienes una cuenta? <a className="info-register" href="">Registrarse</a></p>
             </div>
+            <a className="recover-password" href="#">
+              Has olvidado tu contraseña
+            </a>
           </form>
         </section>
       </section>

@@ -47,9 +47,21 @@ h3 {
   width: 50%;
 }
 
-.recu-contra {
+.recover-password {
   display: flex;
   justify-content: center;
+  margin-top: 4rem;
+  color: rgb(64, 63, 63);
+  margin-bottom: 2.5rem;
+  margin-left: 0.5rem;
+}
+
+.recover-password-responsive{
+  display: none;
+  margin-top: 4rem;
+  color: #ea4335;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
 }
 
 .goals {
@@ -157,15 +169,25 @@ h3 {
 }
 
 .sectionLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  width: 50vw;
+  width: 55vw;
   height: 100vh;
 }
 
 .leftContain {
-  width: 50vw;
+  width: 55vw;
   height: 100vh;
 }
+
+.orderLogo{
+  position: absolute;
+  width: 19.5%;
+  height: 22%;
+}
+
 
 .imgLogoLogin {
   display: none;
@@ -179,21 +201,6 @@ h3 {
   margin-left: 4.1vh;
   font-weight: none;
   margin-bottom: -1rem;
-}
-
-.recu-contra {
-  color: rgba(234, 67, 53, 1);
-  font-weight: bold;
-  margin-bottom: 2.5rem;
-}
-
-.imageOrder {
-  position: absolute;
-  left: 38%;
-  top: 38%;
-  height: 22%;
-  background-color: #f07000bb;
-  border-radius: 25px;
 }
 
 
@@ -263,20 +270,28 @@ li {
   color: #000000;
 }
 
+.register{
+  display: none;
+  justify-content: center;
+  color: #929292;
+}
+
+.info-register{
+  justify-content: center;
+  color: black;
+  margin-left: 0.5rem;
+  color: #ea4335;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
 
 /* media queries */
 
 @media (max-width: 1500px) and (min-width: 1145px) {
-  .imageOrder {
-    position: absolute;
-    left: 35%;
-    top: 40%;
-    height: 18%;
-    right: auto;
-    background-color: #f07000bb;
-    border-radius: 25px;
-    border: none;
-  }
+
 
   .imgLogoLogin {
     display: none;
@@ -316,6 +331,7 @@ li {
     z-index: 1;
     padding: 1rem;
   }
+
 }
 
 @media (max-width: 1145px) and (min-width: 600px) {
@@ -338,7 +354,7 @@ li {
     color: #555;
   }
 
-  .recu-contra {
+  .recover-password {
     display: flex;
     justify-content: left;
   }
@@ -381,6 +397,26 @@ li {
   .sectionRight {
     background-color: white;
   }
+
+
+  .recover-password {
+    display: none;
+  }
+  
+  .recover-password-responsive{
+    display: flex;
+    margin-top: 2.2rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    margin-left: 0.2rem;
+  }
+  .register{
+    display: flex;
+    color: #3b3a3a;
+  }
+
+
+
 }
 
 @media (max-width: 600px) {
@@ -403,7 +439,7 @@ li {
     color: #555;
   }
 
-  .recu-contra {
+  .recover-password {
     display: flex;
     justify-content: left;
   }
@@ -447,6 +483,22 @@ li {
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-right: 0rem;
+  }
+
+  .recover-password {
+    display: none;
+  }
+  
+  .recover-password-responsive{
+    display: flex;
+    margin-top: 2.2rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    margin-left: 0.2rem;
+  }
+  .register{
+    display: flex;
+    color: #3b3a3a;
   }
 
 }

@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+
 import { NavBar } from "../../UI/NavBar/NavBar";
 import { ImgLeft } from "../../UI/ImgLeft/ImgLeft";
-
 import { ImgUI } from "../../UI/ImgUI/ImgUI";
 
 import logo from "../../../Images/logo.png";
 import logoLogin from "../../../Images/heroBg.png";
+import logoOrder from "../../../Images/Exclude.png"
 
 export default function Register() {
   const [formData, setFormData] = useState({
@@ -31,6 +32,7 @@ export default function Register() {
   return (
     <div className="containerPrincipal">
       <section className="sectionLeft">
+        <ImgLeft style="orderLogo" path={logoOrder} />
         <ImgLeft style="leftContain" path={logoLogin} />
       </section>
 
